@@ -1,6 +1,6 @@
 <template>
   <div class="third">
-    <h4 class="headers" v-bind:style="{ color: newColor}">{{ col_title }}</h4>
+    <h4 class="headers" v-bind:style="{ color: color}">{{ col_title }}</h4>
     <img v-bind:src='image'></img>
     <h3 class="article_title">{{article_title}}</h3>
   </div>

@@ -7,7 +7,7 @@
   </div>
   <div class="section">
   <h3 class='headers titles'>news</h3>
-  <third class="lefty" col_title='visual art' article_title="UC Berkeley MFA graduates exhibit innovative explorations of identity, change at BAMPFA" v-bind:image="image"></third>
+  <third color="#add8e6" class="lefty" col_title='visual art' article_title="UC Berkeley MFA graduates exhibit innovative explorations of identity, change at BAMPFA" v-bind:image="image"></third>
   <fourheaders v-bind:first_h="news_h1" v-bind:first_t="news_a1" v-bind:sec_h="news_h2" v-bind:sec_t="news_a2" v-bind:third_h="news_h3" v-bind:third_t="news_a3" v-bind:fourth_h="news_h4" v-bind:fourth_t="news_a4"/>
   </div>
   <div class='section'>
@@ -16,7 +16,7 @@
 </div>
 <div class="section">
   <h3 class="headers titles">sports</h3>
-  <threesplit v-bind:first_c_t='sport1' v-bind:sec_c_t='sport2' v-bind:third_c_t='sport3' v-bind:first_a_t="sport1_a" v-bind:sec_a_t="sport2_a" v-bind:third_a_t="sport3_a" v-bind:first_i='image' v-bind:sec_i='image' v-bind:third_i='image'/>
+  <threesplit mycolor="#4682B4" v-bind:first_c_t='sport1' v-bind:sec_c_t='sport2' v-bind:third_c_t='sport3' v-bind:first_a_t="sport1_a" v-bind:sec_a_t="sport2_a" v-bind:third_a_t="sport3_a" v-bind:first_i='image' v-bind:sec_i='image' v-bind:third_i='image'/>
 </div>
 <div class="section">
   <h3 class="headers">multimedia</h3>
@@ -28,11 +28,11 @@
   </div>
 <div class="section">
   <h3 class="headers titles">arts & entertainment</h3>
-  <threesplit v-bind:first_c_t='art1' v-bind:sec_c_t='art2' v-bind:third_c_t='art3' v-bind:first_a_t="art1_a" v-bind:sec_a_t="art2_a" v-bind:third_a_t="art3_a" v-bind:first_i='image' v-bind:sec_i='image' v-bind:third_i='image'/>
+  <threesplit mycolor="#ff9999" v-bind:first_c_t='art1' v-bind:sec_c_t='art2' v-bind:third_c_t='art3' v-bind:first_a_t="art1_a" v-bind:sec_a_t="art2_a" v-bind:third_a_t="art3_a" v-bind:first_i='image' v-bind:sec_i='image' v-bind:third_i='image'/>
   </div>
   <div class="section">
     <h3 class="headers titles">blog</h3>
-  <threesplit color="#40E0D0" v-bind:first_c_t='blog1' v-bind:sec_c_t='blog2' v-bind:third_c_t='blog3' v-bind:first_a_t="blog1_a" v-bind:sec_a_t="blog2_a" v-bind:third_a_t="blog3_a" v-bind:first_i='image' v-bind:sec_i='image' v-bind:third_i='image'/>
+  <threesplit mycolor="#40E0D0" v-bind:first_c_t='blog1' v-bind:sec_c_t='blog2' v-bind:third_c_t='blog3' v-bind:first_a_t="blog1_a" v-bind:sec_a_t="blog2_a" v-bind:third_a_t="blog3_a" v-bind:first_i='image' v-bind:sec_i='image' v-bind:third_i='image'/>
   </div>
 </div>
 </template>
