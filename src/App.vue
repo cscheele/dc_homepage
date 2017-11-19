@@ -32,7 +32,7 @@
   </div>
   <div class="section">
     <h3 class="headers titles">blog</h3>
-  <threesplit v-bind:first_c_t='blog1' v-bind:sec_c_t='blog2' v-bind:third_c_t='blog3' v-bind:first_a_t="blog1_a" v-bind:sec_a_t="blog2_a" v-bind:third_a_t="blog3_a" v-bind:first_i='image' v-bind:sec_i='image' v-bind:third_i='image'/>
+  <threesplit color="#40E0D0" v-bind:first_c_t='blog1' v-bind:sec_c_t='blog2' v-bind:third_c_t='blog3' v-bind:first_a_t="blog1_a" v-bind:sec_a_t="blog2_a" v-bind:third_a_t="blog3_a" v-bind:first_i='image' v-bind:sec_i='image' v-bind:third_i='image'/>
   </div>
 </div>
 </template>

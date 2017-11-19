@@ -1,8 +1,8 @@
 <template>
   <div class="threesplit">
-    <third id="first" v-bind:col_title='first_c_t' v-bind:article_title='first_a_t' v-bind:image='first_i'></third>
-    <third id="second" v-bind:col_title='sec_c_t' v-bind:article_title='sec_a_t' v-bind:image='sec_i'></third>
-    <third id="third" v-bind:col_title='third_c_t' v-bind:article_title='third_a_t' v-bind:image='third_i'></third>
+    <third id="first" v-bind:col_title='first_c_t' v-bind:article_title='first_a_t' v-bind:image='first_i' v-bind:color='mycolor'></third>
+    <third id="second" v-bind:col_title='sec_c_t' v-bind:article_title='sec_a_t' v-bind:image='sec_i' v-bind:color='mycolor'></third>
+    <third id="third" v-bind:col_title='third_c_t' v-bind:article_title='third_a_t' v-bind:image='third_i' v-bind:color='mycolor'></third>
   </div>
 </template>
 
@@ -11,7 +11,7 @@ import third from '@/components/third'
 
 export default {
   name: 'threesplit',
-  props: ['first_c_t', 'first_a_t', 'first_i', 'sec_c_t', 'sec_a_t', 'sec_i', 'third_c_t', 'third_a_t', 'third_i'],
+  props: ['first_c_t', 'first_a_t', 'first_i', 'sec_c_t', 'sec_a_t', 'sec_i', 'third_c_t', 'third_a_t', 'third_i', 'mycolor'],
   components: {
     third
   }
